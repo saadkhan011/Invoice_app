@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Montserrat:wght@100;400;600&family=Oswald:wght@300&family=Roboto:wght@300&display=swap');
+
+@font-face {
+  font-family: 'acme';
+  src: url('./assets/fonts/RrQfboBx-C5_bx3Lb23lzLk.ttf') format('truetype');
+  /* Replace with your font file path */
+  /* Additional font formats can be specified with additional src declarations */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'acme', sans-serif;
+}
+
+:root {
+  --white: #fff;
+  --offwhite: #f7f7f7;
+  --darkwhite: #eeeeee;
+  --grey: #393e46;
+  --lightgrey: #929aab;
+  --black: #000000;
+  --green: #171717;
+}
+
+i {
+  cursor: pointer;
+}
+
+.loader {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
